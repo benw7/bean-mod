@@ -1,0 +1,7 @@
+Java Launcher: /Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/bin/java
+Arguments: '--inJar, /Users/benwelch/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.16.5-36.2.20/forge-1.16.5-36.2.20-injected.jar, --outJar, /Users/benwelch/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.16.5-36.2.20_mapped_snapshot_20210309-1.16.5/forge-1.16.5-36.2.20_mapped_snapshot_20210309-1.16.5.jar, --logFile, accesstransform.log, --atFile, /Users/benwelch/Desktop/bean-mod/build/_atJar_5/parent_at.cfg'
+Classpath:
+ - /Users/benwelch/.gradle/caches/forge_gradle/maven_downloader/net/minecraftforge/accesstransformers/8.0.7/accesstransformers-8.0.7-fatjar.jar
+Working directory: /Users/benwelch/Desktop/bean-mod/build/_atJar_5
+Main class: net.minecraftforge.accesstransformer.TransformerProcessor
+====================================

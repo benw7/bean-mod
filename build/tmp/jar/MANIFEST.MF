@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Specification-Title: beanmod
+Specification-Vendor: beanmodsareus
+Specification-Version: 1
+Implementation-Title: bean-mod
+Implementation-Version: 1.0
+Implementation-Vendor: beanmodsareus
+Implementation-Timestamp: 2022-03-26T18:10:33+0000
+

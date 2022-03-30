@@ -1,9 +1,11 @@
 package co.uk.jsbeansoc.beanmod;
 
+import co.uk.jsbeansoc.beanmod.item.ModItems;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.RegistryEvent;
+import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.InterModComms;
 import net.minecraftforge.fml.common.Mod;
@@ -20,9 +22,11 @@ import java.util.stream.Collectors;
 
 // dear josh this is all from a default example, ive just changed everything to beanmod
 // The value here should match an entry in the META-INF/mods.toml file
-@Mod("beanmod")
+@Mod(BeanMod.MOD_ID)
 public class BeanMod
 {
+    public static final String MOD_ID = "beanmod";
+
     // Directly reference a log4j logger.
     private static final Logger LOGGER = LogManager.getLogger();
 
@@ -38,6 +42,9 @@ public class BeanMod
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
+
+        IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
+        ModItems.register(eventBus);
     }
 
     private void setup(final FMLCommonSetupEvent event)

@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "BSB",
+      "BSB",
+      "BSB"
+    ],
+    "key": {
+      "B": {
+        "item": "beanmod:raw_bean"
+      },
+      "S": {
+        "item": "minecraft:stick"
+      }
+    },
+    "result": {
+      "item": "beanmod:bean_stalk"
+    }
+  }

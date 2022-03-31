@@ -20,7 +20,6 @@ import org.apache.logging.log4j.Logger;
 
 import java.util.stream.Collectors;
 
-// dear josh this is all from a default example, ive just changed everything to beanmod
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(BeanMod.MOD_ID)
 public class BeanMod

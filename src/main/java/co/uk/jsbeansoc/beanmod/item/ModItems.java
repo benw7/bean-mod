@@ -21,4 +21,6 @@ public class ModItems {
     public static final RegistryObject<Item> TIN_CAN = ITEMS.register("tin_can", () -> new Item(new Item.Properties().group(ItemGroup.MISC)));
     public static final RegistryObject<Item> BEANS_CAN = ITEMS.register("beans_can", () -> new Item(new Item.Properties().group(ItemGroup.FOOD)));
     public static final RegistryObject<Item> RAW_BEAN = ITEMS.register("raw_bean", () -> new Item(new Item.Properties().group(ItemGroup.FOOD)));
+    public static final RegistryObject<Item> BEAN_STALK = ITEMS.register("bean_stalk", () -> new Item(new Item.Properties().group(ItemGroup.MISC)));
+
 }

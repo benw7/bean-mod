@@ -17,4 +17,5 @@ public class ModItems {
 
     public static final RegistryObject<Item> BAKED_BEAN = ITEMS.register("baked_bean", () -> new Item(new Item.Properties().group(ItemGroup.FOOD)));
     public static final RegistryObject<Item> TOMATO = ITEMS.register("tomato", () -> new Item(new Item.Properties().group(ItemGroup.FOOD)));
+    public static final RegistryObject<Item> TOMATO_SAUCE = ITEMS.register("tomato_sauce", () -> new Item(new Item.Properties().group(ItemGroup.FOOD)));
 }

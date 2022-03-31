@@ -1,5 +1,9 @@
 {
   "item.beanmod.baked_bean": "Baked Bean",
   "item.beanmod.tomato": "Tomato",
-  "item.beanmod.tomato_sauce": "Tomato Sauce"
+  "item.beanmod.tomato_sauce": "Tomato Sauce",
+  "item.beanmod.tin_can": "Tin Can",
+  "item.beanmod.beans_can": "Tin of Beans",
+  "item.beanmod.raw_bean": "Raw Bean"
+
 }

@@ -18,4 +18,7 @@ public class ModItems {
     public static final RegistryObject<Item> BAKED_BEAN = ITEMS.register("baked_bean", () -> new Item(new Item.Properties().group(ItemGroup.FOOD)));
     public static final RegistryObject<Item> TOMATO = ITEMS.register("tomato", () -> new Item(new Item.Properties().group(ItemGroup.FOOD)));
     public static final RegistryObject<Item> TOMATO_SAUCE = ITEMS.register("tomato_sauce", () -> new Item(new Item.Properties().group(ItemGroup.FOOD)));
+    public static final RegistryObject<Item> TIN_CAN = ITEMS.register("tin_can", () -> new Item(new Item.Properties().group(ItemGroup.MISC)));
+    public static final RegistryObject<Item> BEANS_CAN = ITEMS.register("beans_can", () -> new Item(new Item.Properties().group(ItemGroup.FOOD)));
+    public static final RegistryObject<Item> RAW_BEAN = ITEMS.register("raw_bean", () -> new Item(new Item.Properties().group(ItemGroup.FOOD)));
 }

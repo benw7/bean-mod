@@ -1,8 +1,11 @@
 package co.uk.jsbeansoc.beanmod;
 
+import co.uk.jsbeansoc.beanmod.block.ModBlocks;
 import co.uk.jsbeansoc.beanmod.item.ModItems;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
+import net.minecraft.client.renderer.RenderType;
+import net.minecraft.client.renderer.RenderTypeLookup;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -44,7 +47,13 @@ public class BeanMod
 
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
         ModItems.register(eventBus);
+        ModBlocks.register(eventBus);
     }
+
+
+
+
+
 
     private void setup(final FMLCommonSetupEvent event)
     {
@@ -56,6 +65,9 @@ public class BeanMod
     private void doClientStuff(final FMLClientSetupEvent event) {
         // do something that can only be done on the client
         LOGGER.info("Got game settings {}", event.getMinecraftSupplier().get()); // removed .options because of error??
+   event.enqueueWork(() -> {
+            RenderTypeLookup.setRenderLayer(ModBlocks.TOMATO_PLANT.get(), RenderType.getCutout());
+        });
     }
 
     private void enqueueIMC(final InterModEnqueueEvent event)

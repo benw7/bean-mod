@@ -1,6 +1,7 @@
 package co.uk.jsbeansoc.beanmod.block;
 
 import co.uk.jsbeansoc.beanmod.BeanMod;
+import co.uk.jsbeansoc.beanmod.block.custom.BeanBlock;
 import co.uk.jsbeansoc.beanmod.block.custom.TomatoPlant;
 import co.uk.jsbeansoc.beanmod.item.ModItemGroup;
 import co.uk.jsbeansoc.beanmod.item.ModItems;
@@ -22,7 +23,7 @@ import java.util.function.Supplier;
 public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS,BeanMod.MOD_ID);
 
-    public static final RegistryObject<Block> BEAN_BLOCK = registerBlock("bean_block",() -> new Block(AbstractBlock.Properties.create(Material.ROCK).harvestLevel(2).harvestTool(ToolType.PICKAXE).setRequiresTool().hardnessAndResistance(5f)));
+    public static final RegistryObject<Block> BEAN_BLOCK = registerBlock("bean_block",() -> new BeanBlock(AbstractBlock.Properties.create(Material.ROCK).harvestLevel(2).harvestTool(ToolType.PICKAXE).setRequiresTool().hardnessAndResistance(5f)));
 
     public static final RegistryObject<Block>TOMATO_PLANT = BLOCKS.register("tomato_plant",()-> new TomatoPlant(AbstractBlock.Properties.from((Blocks.WHEAT))));
 

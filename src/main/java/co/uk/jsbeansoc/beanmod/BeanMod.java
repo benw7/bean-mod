@@ -67,6 +67,7 @@ public class BeanMod
         LOGGER.info("Got game settings {}", event.getMinecraftSupplier().get()); // removed .options because of error??
    event.enqueueWork(() -> {
             RenderTypeLookup.setRenderLayer(ModBlocks.TOMATO_PLANT.get(), RenderType.getCutout());
+            RenderTypeLookup.setRenderLayer(ModBlocks.RAW_BEAN.get(), RenderType.getCutout());
         });
     }
 

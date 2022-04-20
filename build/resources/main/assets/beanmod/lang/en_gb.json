@@ -4,9 +4,9 @@
   "item.beanmod.tomato_sauce": "Tomato Sauce",
   "item.beanmod.tin_can": "Tin Can",
   "item.beanmod.beans_can": "Tin of Beans",
-  "item.beanmod.raw_bean": "Raw Bean",
   "item.beanmod.bean_stalk": "Bean Stalk",
   "itemGroup.beanModTab": "Beany",
   "block.beanmod.bean_block": "Bean Block",
-  "block.beanmod.tomato_plant": "Tomato Seeds"
+  "block.beanmod.tomato_crop": "Tomato Seeds",
+  "block.beanmod.bean_crop": "Raw Bean"
 }

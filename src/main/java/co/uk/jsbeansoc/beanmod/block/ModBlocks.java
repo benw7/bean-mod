@@ -2,6 +2,7 @@ package co.uk.jsbeansoc.beanmod.block;
 
 import co.uk.jsbeansoc.beanmod.BeanMod;
 import co.uk.jsbeansoc.beanmod.block.custom.BeanBlock;
+import co.uk.jsbeansoc.beanmod.block.custom.BeanPlant;
 import co.uk.jsbeansoc.beanmod.block.custom.TomatoPlant;
 import co.uk.jsbeansoc.beanmod.item.ModItemGroup;
 import co.uk.jsbeansoc.beanmod.item.ModItems;
@@ -11,7 +12,6 @@ import net.minecraft.block.Blocks;
 import net.minecraft.block.material.Material;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
 import net.minecraftforge.common.ToolType;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.RegistryObject;
@@ -25,8 +25,9 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> BEAN_BLOCK = registerBlock("bean_block",() -> new BeanBlock(AbstractBlock.Properties.create(Material.ROCK).harvestLevel(2).harvestTool(ToolType.PICKAXE).setRequiresTool().hardnessAndResistance(5f)));
 
-    public static final RegistryObject<Block>TOMATO_PLANT = BLOCKS.register("tomato_plant",()-> new TomatoPlant(AbstractBlock.Properties.from((Blocks.WHEAT))));
+    public static final RegistryObject<Block>TOMATO_PLANT = BLOCKS.register("tomato_crop",()-> new TomatoPlant(AbstractBlock.Properties.from((Blocks.WHEAT))));
 
+    public static final RegistryObject<Block>RAW_BEAN = BLOCKS.register("bean_crop",()-> new BeanPlant(AbstractBlock.Properties.from((Blocks.WHEAT))));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block){
         RegistryObject<T> toReturn = BLOCKS.register(name,block);

@@ -7,6 +7,10 @@
   "item.beanmod.bean_stalk": "Bean Stalk",
   "itemGroup.beanModTab": "Beany",
   "block.beanmod.bean_block": "Bean Block",
+
   "block.beanmod.tomato_crop": "Tomato Seeds",
-  "block.beanmod.bean_crop": "Raw Bean"
+  "block.beanmod.bean_crop": "Raw Bean",
+
+  "block.beanmod.coffee_bean_block": "Coffee Bean Block"
+
 }

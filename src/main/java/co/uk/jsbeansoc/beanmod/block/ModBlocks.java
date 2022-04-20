@@ -25,7 +25,12 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> BEAN_BLOCK = registerBlock("bean_block",() -> new BeanBlock(AbstractBlock.Properties.create(Material.ROCK).harvestLevel(2).harvestTool(ToolType.PICKAXE).setRequiresTool().hardnessAndResistance(5f)));
 
+
     public static final RegistryObject<Block>TOMATO_PLANT = BLOCKS.register("tomato_crop",()-> new TomatoPlant(AbstractBlock.Properties.from((Blocks.WHEAT))));
+
+    public static final RegistryObject<Block> COFFEE_BEAN_BLOCK = registerBlock("coffee_bean_block",() -> new Block(AbstractBlock.Properties.create(Material.ROCK).harvestLevel(2).harvestTool(ToolType.PICKAXE).setRequiresTool().hardnessAndResistance(5f)));
+
+
 
     public static final RegistryObject<Block>RAW_BEAN = BLOCKS.register("bean_crop",()-> new BeanPlant(AbstractBlock.Properties.from((Blocks.WHEAT))));
 

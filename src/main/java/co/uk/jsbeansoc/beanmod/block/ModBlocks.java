@@ -11,7 +11,6 @@ import net.minecraft.block.Blocks;
 import net.minecraft.block.material.Material;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
 import net.minecraftforge.common.ToolType;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.RegistryObject;
@@ -25,7 +24,9 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> BEAN_BLOCK = registerBlock("bean_block",() -> new BeanBlock(AbstractBlock.Properties.create(Material.ROCK).harvestLevel(2).harvestTool(ToolType.PICKAXE).setRequiresTool().hardnessAndResistance(5f)));
 
-    public static final RegistryObject<Block>TOMATO_PLANT = BLOCKS.register("tomato_plant",()-> new TomatoPlant(AbstractBlock.Properties.from((Blocks.WHEAT))));
+    public static final RegistryObject<Block> COFFEE_BEAN_BLOCK = registerBlock("coffee_bean_block",() -> new Block(AbstractBlock.Properties.create(Material.ROCK).harvestLevel(2).harvestTool(ToolType.PICKAXE).setRequiresTool().hardnessAndResistance(5f)));
+
+    public static final RegistryObject<Block> TOMATO_PLANT = BLOCKS.register("tomato_plant",()-> new TomatoPlant(AbstractBlock.Properties.from((Blocks.WHEAT))));
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block){

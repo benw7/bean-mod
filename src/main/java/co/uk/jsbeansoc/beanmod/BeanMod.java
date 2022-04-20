@@ -50,11 +50,6 @@ public class BeanMod
         ModBlocks.register(eventBus);
     }
 
-
-
-
-
-
     private void setup(final FMLCommonSetupEvent event)
     {
         // some preinit code

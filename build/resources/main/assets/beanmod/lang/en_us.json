@@ -5,6 +5,7 @@
   "item.beanmod.tin_can": "Tin Can",
   "item.beanmod.beans_can": "Tin of Beans",
   "item.beanmod.bean_stalk": "Bean Stalk",
+<<<<<<< HEAD
   "item.beanmod.bean_helmet": "Bean Helmet",
   "item.beanmod.bean_boots": "Bean Boots",
   "item.beanmod.bean_leggings": "Bean Leggings",
@@ -16,6 +17,13 @@
   "block.beanmod.bean_crop": "Raw Bean",
 
 
+=======
+  "item.beanmod.bean_sword": "Bean Sword",
+  "itemGroup.beanModTab": "Beany",
+  "block.beanmod.bean_block": "Bean Block",
+  "block.beanmod.tomato_crop": "Tomato Seeds",
+  "block.beanmod.bean_crop": "Raw Bean",
+>>>>>>> a1f8a790a654c7cf2f721366407afe4e8bfe9a50
   "block.beanmod.coffee_bean_block": "Coffee Bean Block"
 
 }

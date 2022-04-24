@@ -5,14 +5,11 @@
   "item.beanmod.tin_can": "Tin Can",
   "item.beanmod.beans_can": "Tin of Beans",
   "item.beanmod.bean_stalk": "Bean Stalk",
+  "item.beanmod.bean_sword": "Bean Sword",
   "itemGroup.beanModTab": "Beany",
   "block.beanmod.bean_block": "Bean Block",
-<<<<<<< HEAD
   "block.beanmod.tomato_crop": "Tomato Seeds",
-  "block.beanmod.bean_crop": "Raw Bean"
-
-=======
-  "block.beanmod.tomato_plant": "Tomato Seeds",
+  "block.beanmod.bean_crop": "Raw Bean",
   "block.beanmod.coffee_bean_block": "Coffee Bean Block"
->>>>>>> 7de066eef77f84041b0cf2ae0d5e330bfc1fe4af
+
 }

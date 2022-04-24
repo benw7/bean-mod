@@ -2,10 +2,8 @@ package co.uk.jsbeansoc.beanmod.item;
 
 import co.uk.jsbeansoc.beanmod.BeanMod;
 import co.uk.jsbeansoc.beanmod.block.ModBlocks;
-import net.minecraft.item.BlockItem;
-import net.minecraft.item.Food;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
+import co.uk.jsbeansoc.beanmod.tools.ModItemTier;
+import net.minecraft.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
@@ -32,5 +30,7 @@ public class ModItems {
 
     public static final RegistryObject<Item> RAW_BEAN = ITEMS.register("raw_bean", () -> new BlockItem(ModBlocks.RAW_BEAN.get() ,new Item.Properties().group(ModItemGroup.BEAN_GROUP)));
     public static final RegistryObject<Item> TOMATO_PLANT = ITEMS.register("tomato_plant", () -> new BlockItem(ModBlocks.TOMATO_PLANT.get(), new Item.Properties().group(ModItemGroup.BEAN_GROUP)));
+
+    public static final RegistryObject<SwordItem> BEAN_SWORD = ITEMS.register("bean_sword", () -> new SwordItem(ModItemTier.BEANSWORD, 5, -2.8f, new Item.Properties().group(ModItemGroup.BEAN_GROUP)));
 
 }

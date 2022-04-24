@@ -1,19 +1,9 @@
 Manifest-Version: 1.0
-<<<<<<< HEAD
 Specification-Title: beanmod
 Specification-Vendor: beanmodsareus
 Specification-Version: 1
-=======
->>>>>>> a1f8a790a654c7cf2f721366407afe4e8bfe9a50
 Implementation-Title: bean-mod
 Implementation-Version: 1.0
-Specification-Vendor: beanmodsareus
-Specification-Title: beanmod
-Implementation-Timestamp: 2022-04-24T22:40:36+0100
-Specification-Version: 1
 Implementation-Vendor: beanmodsareus
-<<<<<<< HEAD
-Implementation-Timestamp: 2022-04-24T23:30:20+0100
-=======
->>>>>>> a1f8a790a654c7cf2f721366407afe4e8bfe9a50
+Implementation-Timestamp: 2022-04-25T00:29:01+0100
 

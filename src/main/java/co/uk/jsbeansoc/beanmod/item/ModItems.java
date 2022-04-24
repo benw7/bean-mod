@@ -2,10 +2,8 @@ package co.uk.jsbeansoc.beanmod.item;
 
 import co.uk.jsbeansoc.beanmod.BeanMod;
 import co.uk.jsbeansoc.beanmod.block.ModBlocks;
-import net.minecraft.item.BlockItem;
-import net.minecraft.item.Food;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
+import net.minecraft.inventory.EquipmentSlotType;
+import net.minecraft.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
@@ -32,5 +30,10 @@ public class ModItems {
 
     public static final RegistryObject<Item> RAW_BEAN = ITEMS.register("raw_bean", () -> new BlockItem(ModBlocks.RAW_BEAN.get() ,new Item.Properties().group(ModItemGroup.BEAN_GROUP)));
     public static final RegistryObject<Item> TOMATO_PLANT = ITEMS.register("tomato_plant", () -> new BlockItem(ModBlocks.TOMATO_PLANT.get(), new Item.Properties().group(ModItemGroup.BEAN_GROUP)));
+
+    public static final RegistryObject<Item> BEAN_HELMET = ITEMS.register("bean_helmet", () -> new ArmorItem(ModArmorMaterial.BEAN, EquipmentSlotType.HEAD, new Item.Properties().group(ModItemGroup.BEAN_GROUP)));
+    public static final RegistryObject<Item> BEAN_BOOTS = ITEMS.register("bean_boots", () -> new ArmorItem(ModArmorMaterial.BEAN, EquipmentSlotType.FEET, new Item.Properties().group(ModItemGroup.BEAN_GROUP)));
+    public static final RegistryObject<Item> BEAN_CHESTPLATE = ITEMS.register("bean_chestplate", () -> new ArmorItem(ModArmorMaterial.BEAN, EquipmentSlotType.CHEST, new Item.Properties().group(ModItemGroup.BEAN_GROUP)));
+    public static final RegistryObject<Item> BEAN_LEGGINGS = ITEMS.register("bean_leggings", () -> new ArmorItem(ModArmorMaterial.BEAN, EquipmentSlotType.LEGS, new Item.Properties().group(ModItemGroup.BEAN_GROUP)));
 
 }

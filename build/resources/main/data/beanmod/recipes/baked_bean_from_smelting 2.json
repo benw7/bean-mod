@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "beanmod:raw_bean"
+  },
+  "result": "beanmod:baked_bean",
+  "experience": 0.35,
+  "cookingtime": 200
+}

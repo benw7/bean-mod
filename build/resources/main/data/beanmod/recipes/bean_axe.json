@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XX",
+    "X#",
+    " #"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "beanmod:baked_bean"
+    }
+  },
+  "result": {
+    "item": "beanmod:bean_axe"
+  }
+}

@@ -11,8 +11,12 @@
   "item.beanmod.bean_leggings": "Bean Leggings",
   "item.beanmod.bean_chestplate": "Bean Chestplate",
 
-
   "item.beanmod.bean_sword": "Bean Sword",
+  "item.beanmod.bean_axe": "Bean Axe",
+  "item.beanmod.bean_pickaxe": "Bean Pickaxe",
+  "item.beanmod.bean_hoe": "Bean Hoe",
+  "item.beanmod.bean_shovel": "Bean Shovel",
+
   "itemGroup.beanModTab": "Beany",
   "block.beanmod.bean_block": "Bean Block",
   "block.beanmod.tomato_crop": "Tomato Seeds",

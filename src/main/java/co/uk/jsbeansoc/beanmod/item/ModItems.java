@@ -41,7 +41,10 @@ public class ModItems {
     public static final RegistryObject<Item> BEAN_CHESTPLATE = ITEMS.register("bean_chestplate", () -> new ArmorItem(ModArmorMaterial.BEAN, EquipmentSlotType.CHEST, new Item.Properties().group(ModItemGroup.BEAN_GROUP)));
     public static final RegistryObject<Item> BEAN_LEGGINGS = ITEMS.register("bean_leggings", () -> new ArmorItem(ModArmorMaterial.BEAN, EquipmentSlotType.LEGS, new Item.Properties().group(ModItemGroup.BEAN_GROUP)));
 
-    public static final RegistryObject<SwordItem> BEAN_SWORD = ITEMS.register("bean_sword", () -> new SwordItem(ModItemTier.BEANSWORD, 5, -2.8f, new Item.Properties().group(ModItemGroup.BEAN_GROUP)));
-
+    public static final RegistryObject<SwordItem> BEAN_SWORD = ITEMS.register("bean_sword", () -> new SwordItem(ModItemTier.BEANTOOLS, 5, -2.8f, new Item.Properties().group(ModItemGroup.BEAN_GROUP)));
+    public static final RegistryObject<AxeItem> BEAN_AXE = ITEMS.register("bean_axe", () -> new AxeItem(ModItemTier.BEANTOOLS, 5, -2.8f, new Item.Properties().group(ModItemGroup.BEAN_GROUP)));
+    public static final RegistryObject<PickaxeItem> BEAN_PICKAXE = ITEMS.register("bean_pickaxe", () -> new PickaxeItem(ModItemTier.BEANTOOLS, 5, -2.8f, new Item.Properties().group(ModItemGroup.BEAN_GROUP)));
+    public static final RegistryObject<HoeItem> BEAN_HOE = ITEMS.register("bean_hoe", () -> new HoeItem(ModItemTier.BEANTOOLS, 5, -2.8f, new Item.Properties().group(ModItemGroup.BEAN_GROUP)));
+    public static final RegistryObject<ShovelItem> BEAN_SHOVEL = ITEMS.register("bean_shovel", () -> new ShovelItem(ModItemTier.BEANTOOLS, 5, -2.8f, new Item.Properties().group(ModItemGroup.BEAN_GROUP)));
 
 }

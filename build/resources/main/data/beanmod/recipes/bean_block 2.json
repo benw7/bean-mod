@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "BBB",
+      "BBB",
+      "BBB"
+    ],
+    "key": {
+      "B": {
+        "item": "beanmod:baked_bean"
+      }
+    },
+    "result": {
+      "item": "beanmod:bean_block"
+    }
+  }

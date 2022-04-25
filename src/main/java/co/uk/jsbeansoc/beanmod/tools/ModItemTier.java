@@ -9,7 +9,8 @@ import java.util.function.Supplier;
 
 @MethodsReturnNonnullByDefault
 public enum ModItemTier implements IItemTier {
-    BEANSWORD(1, 131, 4.0F, 3.0F, 5, () -> Ingredient.fromItems(Items.FLINT));
+
+    BEANTOOLS(1, 131, 4.0F, 3.0F, 5, () -> Ingredient.fromItems(Items.FLINT));
 
     private final Supplier<Ingredient> repairmaterial;
     private final int enchantability;

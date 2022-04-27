@@ -29,9 +29,9 @@ displayName="The Bean Mod" #mandatory
 # A file name (in the root of the mod JAR) containing a logo for display
 logoFile="examplemod.png" #optional
 # A text field displayed in the mod UI
-credits="Thanks for this example mod goes to Java, and of course Steven Bradley, who motivated us to do this project. As well as heinz and branston, among other bean manufacturing companies, for inspiring our passion of baked beans" #optional
+credits="Thanks for this mod go to heinz and branston, among other bean manufacturing companies, for inspiring our passion of baked beans" #optional
 # A text field displayed in the mod UI
-authors="Josh Greenwood, Benjamin Welch" #optional
+authors="Phobos__,benw" #optional
 # The description text for the mod (multi line!) (#mandatory)
 description='''
 In the beginning, there was the Bean. The Bean was with God, and the Bean was God.
